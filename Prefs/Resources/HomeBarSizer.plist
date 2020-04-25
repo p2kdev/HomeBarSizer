@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>items</key>
+
+	<array>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.imkpatil.homebarsizer</string>
+			<key>key</key>
+			<string>TwkEnabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+			<key>PostNotification</key>
+			<string>com.imkpatil.homebarsizer.settingschanged</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Specify HomeBar Width</string>
+			<key>footerText</key>
+			<string>This will change the width of the HomeBar. Use the slider to adjust as per your preference.</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<integer>134</integer> <!-- Default value of the slider -->
+			<key>defaults</key>
+			<string>com.imkpatil.homebarsizer</string> <!-- Your package name here -->
+			<key>key</key>
+			<string>BarWidth</string> <!-- Your key name here -->
+			<key>max</key>
+			<real>300</real> <!-- Enter your maximum value here -->
+			<key>min</key>
+			<real>10</real> <!-- Enter your minimum value here -->
+			<key>showValue</key> <!-- Show the value of the slider. true or false. -->
+			<true/>
+			<key>PostNotification</key>
+			<string>com.imkpatil.homebarsizer.settingschanged</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Specify HomeBar Height</string>
+			<key>footerText</key>
+			<string>This will change the height of the HomeBar. Use the slider to adjust as per your preference.</string>
+		</dict>
+
+		<dict>
+				<key>cell</key>
+				<string>PSSliderCell</string>
+				<key>default</key>
+				<integer>5</integer> <!-- Default value of the slider -->
+				<key>defaults</key>
+				<string>com.imkpatil.homebarsizer</string> <!-- Your package name here -->
+				<key>key</key>
+				<string>BarHeight</string> <!-- Your key name here -->
+				<key>max</key>
+				<real>100</real> <!-- Enter your maximum value here -->
+				<key>min</key>
+				<real>1</real> <!-- Enter your minimum value here -->
+				<key>showValue</key> <!-- Show the value of the slider. true or false. -->
+				<true/>
+				<key>PostNotification</key>
+				<string>com.imkpatil.homebarsizer.settingschanged</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Specify HomeBar Corner Radius</string>
+			<key>footerText</key>
+			<string>This will change the roundness aspect of the HomeBar. Use the slider to adjust as per your preference.</string>
+		</dict>
+
+		<dict>
+				<key>cell</key>
+				<string>PSSliderCell</string>
+				<key>default</key>
+				<integer>3</integer> <!-- Default value of the slider -->
+				<key>defaults</key>
+				<string>com.imkpatil.homebarsizer</string> <!-- Your package name here -->
+				<key>key</key>
+				<string>BarRadius</string> <!-- Your key name here -->
+				<key>isSegmented</key>
+				<true/>
+				<key>segmentCount</key>
+				<integer>9</integer> <!-- Enter your maximum value here -->
+				<key>max</key>
+				<integer>10</integer> <!-- Enter your maximum value here -->
+				<key>min</key>
+				<integer>1</integer> <!-- Enter your minimum value here -->
+				<key>showValue</key> <!-- Show the value of the slider. true or false. -->
+				<true/>
+				<key>PostNotification</key>
+				<string>com.imkpatil.homebarsizer.settingschanged</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring!</string>
+			<key>action</key>
+			<string>respring</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+			<key>footerText</key>
+			<string>Icon from iconfinder.com
+© 2019 P2KDev (@p2kdev)</string>
+		</dict>
+
+	</array>
+
+	<key>title</key>
+	<string>HomeBarSizer</string>
+</dict>
+</plist>
